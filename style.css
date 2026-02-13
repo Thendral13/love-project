@@ -30,6 +30,7 @@ button {
     transition: 0.3s;
 }
 
+
 #yesBtn {
     background-color: white;
     color: #ff3366;
@@ -60,3 +61,27 @@ button:hover {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(255,255,255,0.7);
 }
+body {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.main-img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+}
+
+.love-text {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
