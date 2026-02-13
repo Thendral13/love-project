@@ -84,4 +84,21 @@ body {
     padding: 0 20px;
     line-height: 1.6;
 }
+.yes-page {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.romantic-img {
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.love-text {
+    font-size: 20px;
+    margin: 20px;
+}
 
