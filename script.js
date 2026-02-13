@@ -1,16 +1,12 @@
-// Get buttons safely
-const yesBtn = document.getElementById("yesBtn");
-const noBtn = document.getElementById("noBtn");
+document.addEventListener("DOMContentLoaded", function () {
 
-// If YES button exists → go to next page
-if (yesBtn) {
+    const yesBtn = document.getElementById("yesBtn");
+    const noBtn = document.getElementById("noBtn");
+
     yesBtn.addEventListener("click", function () {
         window.location.href = "yes.html";
     });
-}
 
-// If NO button exists → make it run away
-if (noBtn) {
     noBtn.addEventListener("mouseover", function () {
         const x = Math.random() * (window.innerWidth - 100);
         const y = Math.random() * (window.innerHeight - 50);
@@ -19,4 +15,5 @@ if (noBtn) {
         noBtn.style.left = x + "px";
         noBtn.style.top = y + "px";
     });
-}
+
+});
